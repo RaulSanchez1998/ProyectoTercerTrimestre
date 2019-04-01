@@ -2,7 +2,7 @@ package Proyecto.ProyectoTercerTrimestre;
 
 public abstract class Personas {
 
-	String Nombre,Contrasena,Correo;
+	protected String Nombre,Contrasena,Correo;
 
 	public Personas() {
 		
@@ -43,8 +43,10 @@ public abstract class Personas {
 
 	@Override
 	public String toString() {
-		// TODO Auto-generated method stub
-		return super.toString();
+		
+		String mensaje="El usuario con nombre " + Nombre+ ". contraseña " + Contrasena + " y correo de contacto "+ Correo;
+		
+		return mensaje;
 	}
 	
 	
