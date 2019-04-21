@@ -1,4 +1,4 @@
-package Proyecto.ProyectoTercerTrimestre;
+package ProyectoTercerTrimestre;
 
 public class Inicio {
 
