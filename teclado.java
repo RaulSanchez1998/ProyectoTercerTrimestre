@@ -1,5 +1,5 @@
 package ProyectoTercerTrimestre;
-public class teclado extends perifericos {
+public class teclado extends HExterno {
 String cherry, categoria;
 
 //cherry=rojo marron o azul?

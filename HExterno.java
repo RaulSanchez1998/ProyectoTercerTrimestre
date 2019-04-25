@@ -1,12 +1,12 @@
 package ProyectoTercerTrimestre;
-abstract class perifericos extends productos {
+abstract class HExterno extends productos {
 String tipo;
 //tipo= inalambrico o con cable
-	public perifericos() {
+	public HExterno() {
 		// TODO Auto-generated constructor stub
 	}
 	
-	public perifericos(String nombre, String marca, String precioVenta, String precioCompra, String tipo) {
+	public HExterno(String nombre, String marca, String precioVenta, String precioCompra, String tipo) {
 		super(nombre, marca, precioVenta, precioCompra);
 		this.tipo=tipo;
 		

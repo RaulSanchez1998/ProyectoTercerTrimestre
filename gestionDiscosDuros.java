@@ -7,7 +7,9 @@ public class gestionDiscosDuros {
 
 	
 	private discoDuro modificarDiscoDuro(String aModificar, discoDuro discoDuro ) {
+		
 		 switch (aModificar) {
+		 
 		 case "nombre": 
 			 
 			 break;

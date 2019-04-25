@@ -1,5 +1,5 @@
 package ProyectoTercerTrimestre;
-public class raton extends perifericos{
+public class raton extends HExterno{
 String dpi, tipoSensor;
 	public raton() {
 		// TODO Auto-generated constructor stub
